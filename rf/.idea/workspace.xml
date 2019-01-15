@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="139aca1d-a660-442c-af7f-7e373cf72be6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/tc/d-空白数据/__init__.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tc/d-空白数据/班级管理/添加班级.robot" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="inside.py" pinned="false" current-in-tab="true">
+        <entry file="file://D:/桌面/name/练习/exe/inside.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="595" column="9" selection-start-line="595" selection-start-column="9" selection-end-line="595" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find># # print(ele.text)</find>
+      <find>teacher</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>student</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../xmmz/pylib/input_method.py" />
+        <option value="$PROJECT_DIR$/../xmmz/testcase/d-未登录/d-已登录但未绑定微信/search_and_buy.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz/d-未登录/Jump_login.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz/d-未登录/d-已登录但未绑定微信/Search_and_Buy.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz/d-未登录/d-已登录但未绑定微信/__init__.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz/d-未登录/d-已登录但未绑定微信/Cart.robot" />
+        <option value="$PROJECT_DIR$/../appium-selenium/appium/work2/Appium_work2.py" />
+        <option value="$PROJECT_DIR$/../appium-selenium/appium/work2/test.py" />
+        <option value="$PROJECT_DIR$/../appium-selenium/selenium/exe/exe1.py" />
+        <option value="$PROJECT_DIR$/../xmmz/pylib/Search_buy_keywordlib.py" />
+        <option value="$PROJECT_DIR$/../xmmz/pylib/Cart_keywordlib.py" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz_tc/d-未登录/__init__.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/pylib/Not_login_keywordlib.py" />
+        <option value="$PROJECT_DIR$/../appium-selenium/appium/work3/Appium_work3.py" />
+        <option value="$PROJECT_DIR$/../xmmz/pylib/keyword_lib.py" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz_tc/d-未登录/Jump_login.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz_tc/d-未登录/d-已登录但未绑定微信/Search_and_Buy.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz_tc/d-未登录/d-已登录但未绑定微信/quanquan.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz_tc/d-未登录/d-已登录但未绑定微信/Cart.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/xmmz_tc/d-未登录/d-已登录但未绑定微信/__init__.robot" />
+        <option value="$PROJECT_DIR$/../xmmz/pylib/keywordlib.py" />
+        <option value="D:/桌面/name/练习/ex15-example.txt" />
+        <option value="D:/桌面/name/练习/ex15-example.py" />
+        <option value="D:/桌面/name/练习/22.py" />
+        <option value="D:/桌面/name/练习/多线程及线程锁ex001.py" />
+        <option value="D:/桌面/name/练习/多线程及线程锁.py" />
+        <option value="D:/桌面/name/练习/多线程条件变量.py" />
+        <option value="D:/桌面/name/练习/exe3/socket.py" />
+        <option value="$PROJECT_DIR$/../task/pylib/StudentLib.py" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/__init__.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师拓拔君/学生管理.robot" />
+        <option value="$PROJECT_DIR$/../task/pylib/TeacherLib.py" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师拓拔君/__init__.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师拓拔君/老师管理.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师拓拔君/d-学生夏侯惇/__init__.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师拓拔君/d-学生夏侯惇/学生管理.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/web操作.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/web测试/__init__.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/学生管理.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-学生孙权/__init__.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-学生孙权/学生管理.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-学生孙权/web操作.robot" />
+        <option value="$PROJECT_DIR$/../task/cfg.py" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/d-学生桑桑1/学生管理.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/web测试/web操作.robot" />
+        <option value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/d-学生桑桑1/web操作.robot" />
+        <option value="$PROJECT_DIR$/../task/pylib/WebOpLib.py" />
+        <option value="D:/桌面/name/练习/exe/inside1.py" />
+        <option value="D:/桌面/name/练习/exe/inside.py" />
+        <option value="$PROJECT_DIR$/../appium-selenium/selenium/work1/work1 planB.py" />
+        <option value="$PROJECT_DIR$/../Python/python_work1/python_work1.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1772" />
+    <option name="y" value="10" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyWorkSpace" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="last_opened_file_path" value="D:/python" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="xmmz" is-module-sdk="true" working-directory="$PROJECT_DIR$/../xmmz">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="xmmz" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/../xmmz" />
+        <option name="myAddSourceRoots" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-数学老师桑桑\d-学生桑桑1" />
+      <recent name="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-学生孙权" />
+      <recent name="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班" />
+      <recent name="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-数学老师桑桑\web测试" />
+      <recent name="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\web测试" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\web测试" />
+      <recent name="D:\桌面\name\练习\exe3" />
+      <recent name="D:\桌面\name\练习\exe2" />
+      <recent name="D:\桌面\name\练习\exe" />
+      <recent name="D:\pyWorkSpace\API" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.work1 planB">
+    <configuration name="老师发布作业1 - tc005101" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;老师发布作业1 - tc005101&quot;" />
+      <option name="INTERPRETER_NAME" value="python" />
+      <option name="textField1" value="$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/d-学生桑桑1/web操作.robot" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ENV_PATH" value="$PROJECT_DIR$/venv/bin" />
+      <option name="envPATH" value="$PROJECT_DIR$/venv/bin" />
+      <option name="testCaseName" value="老师发布作业1 - tc005101" />
+      <module name="" />
+    </configuration>
+    <configuration name="WebOpLib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="task" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../task/pylib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../task/pylib/WebOpLib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="inside" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/桌面/name/练习/exe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:/桌面/name/练习/exe/inside.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="inside1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/桌面/name/练习/exe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:/桌面/name/练习/exe/inside1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="robotrun" type="PythonConfigurationType" factoryName="Python">
+      <module name="rf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--pythonpath . tc" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+    </configuration>
+    <configuration name="work1 planB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium-selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../appium-selenium/selenium/work1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../appium-selenium/selenium/work1/work1 planB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.robotrun" />
+      <item itemvalue="Python.WebOpLib" />
+      <item itemvalue="Robot Framework.老师发布作业1 - tc005101" />
+      <item itemvalue="Python.inside" />
+      <item itemvalue="Python.inside1" />
+      <item itemvalue="Python.work1 planB" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.work1 planB" />
+        <item itemvalue="Python.inside" />
+        <item itemvalue="Python.inside1" />
+        <item itemvalue="Robot Framework.老师发布作业1 - tc005101" />
+        <item itemvalue="Python.WebOpLib" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="139aca1d-a660-442c-af7f-7e373cf72be6" name="Default" comment="" />
+      <created>1531205821922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531205821922</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-167" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10885417" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073206" side_tool="true" weight="0.27142859" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.25967413" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32925585" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38900203" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="46" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/618241-0a3458779434fd8e.png" />
+    <entry file="file://D:/MyDownloads/Lib/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="871" column="29" lean-forward="true" selection-start-line="871" selection-start-column="29" selection-end-line="871" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/rflib/rc.robot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/桌面/name/练习/exe3/socket.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylib/SchoolClassLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/appium/work3/Appium_work3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/selenium/work3/selenium作业3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/pylib/SchoolClassLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/selenium/work2/selenium作业2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/selenium/work4/selenium作业4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/pylib/WebOpAdmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/__init__.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/添加班级.robot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/老师管理.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/__init__.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/pylib/TeacherLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-644">
+          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/学生管理.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/老师管理.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/web测试/__init__.robot" />
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/web测试/web操作.robot" />
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/班级管理.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-学生孙权/学生管理.robot" />
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/web测试/__init__.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-学生孙权/__init__.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/pylib/StudentLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/__init__.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/d-学生桑桑1/__init__.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/web测试/web操作.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/pylib/WebOpLib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3841">
+          <caret line="170" column="49" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/桌面/name/练习/exe/ex0001.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/桌面/name/练习/exe/ex0002.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/桌面/name/练习/exe/ex0003.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/桌面/name/练习/exe/exercise1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/python_work2/python_work2-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/python_work2/python_work2-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1932" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/python_work4/python_work4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/python_work5/python_work5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/python_work3/python_work3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/MyDownloads/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/桌面/name/练习/exe/inside1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-学生孙权/web操作.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/d-学生桑桑1/web操作.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../task/tc/d-空白数据/d-7年级1班/d-数学老师桑桑/d-学生桑桑1/学生管理.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/selenium/work1/work1 planC.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/selenium/work1/work1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/selenium/work1/work1 exe.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/selenium/work1/work1 planA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../appium-selenium/selenium/work1/work1 planB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/python_work1/python_work1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/桌面/name/练习/exe/inside.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="595" column="9" selection-start-line="595" selection-start-column="9" selection-end-line="595" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

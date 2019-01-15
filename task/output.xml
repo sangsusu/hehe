@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20181127 16:31:26.977">
+<suite id="s1" name="Tc" source="D:\pyWorkSpace\task\tc">
+<suite id="s1-s1" name="D-空白数据" source="D:\pyWorkSpace\task\tc\d-空白数据">
+<kw name="Run Keywords" library="BuiltIn" type="setup">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>delete_all_teachers</arg>
+<arg>AND</arg>
+<arg>delete_all_students</arg>
+<arg>AND</arg>
+<arg>delete_all_school_classes</arg>
+</arguments>
+<kw name="Delete All Teachers" library="pylib.TeacherLib">
+<msg timestamp="20181127 16:31:27.309" level="INFO">{'retcode': 0, 'retlist': []}
+{'retcode': 0, 'retlist': []}
+{'retcode': 0, 'retlist': []}</msg>
+<status status="PASS" starttime="20181127 16:31:27.150" endtime="20181127 16:31:27.309"></status>
+</kw>
+<kw name="Delete All Students" library="pylib.StudentLib">
+<msg timestamp="20181127 16:31:27.514" level="INFO">{'retcode': 0, 'retlist': []}
+{'retcode': 0, 'retlist': []}</msg>
+<status status="PASS" starttime="20181127 16:31:27.309" endtime="20181127 16:31:27.514"></status>
+</kw>
+<kw name="Delete All School Classes" library="pylib.SchoolClassLib">
+<msg timestamp="20181127 16:31:27.712" level="INFO">{'gradeid': None, 'retcode': 0, 'retlist': []}
+{'gradeid': None, 'retcode': 0, 'retlist': []}
+{'gradeid': None, 'retcode': 0, 'retlist': []}
+{'gradeid': None, 'retcode': 0, 'retlist': []}</msg>
+<status status="PASS" starttime="20181127 16:31:27.514" endtime="20181127 16:31:27.713"></status>
+</kw>
+<status status="PASS" starttime="20181127 16:31:27.149" endtime="20181127 16:31:27.713"></status>
+</kw>
+<suite id="s1-s1-s1" name="D-7年级1班" source="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班">
+<kw name="suit setup action" type="setup">
+<kw name="Add School Class" library="pylib.SchoolClassLib">
+<arguments>
+<arg>${g_grade_7_id}</arg>
+<arg>1班</arg>
+<arg>60</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20181127 16:31:27.812" level="INFO">{'id': 63710, 'invitecode': '637107695287', 'retcode': 0}</msg>
+<msg timestamp="20181127 16:31:27.812" level="INFO">${ret} = {'invitecode': '637107695287', 'retcode': 0, 'id': 63710}</msg>
+<status status="PASS" starttime="20181127 16:31:27.718" endtime="20181127 16:31:27.812"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${suite_g7c1_classid}</arg>
+<arg>&amp;{ret}[id]</arg>
+</arguments>
+<msg timestamp="20181127 16:31:27.813" level="INFO">${suite_g7c1_classid} = 63710</msg>
+<status status="PASS" starttime="20181127 16:31:27.812" endtime="20181127 16:31:27.814"></status>
+</kw>
+<status status="PASS" starttime="20181127 16:31:27.718" endtime="20181127 16:31:27.814"></status>
+</kw>
+<suite id="s1-s1-s1-s1" name="D-数学老师桑桑" source="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-数学老师桑桑">
+<kw name="Add Teacher" library="pylib.TeacherLib" type="setup">
+<arguments>
+<arg>sangsang</arg>
+<arg>桑桑</arg>
+<arg>${g_subject_math_id}</arg>
+<arg>${suite_g7c1_classid}</arg>
+<arg>13900000000</arg>
+<arg>13900000000@qq.com</arg>
+<arg>13900000000</arg>
+<arg>suite_math_teacher_id</arg>
+</arguments>
+<msg timestamp="20181127 16:31:27.937" level="INFO">${suite_math_teacher_id} = 17535</msg>
+<msg timestamp="20181127 16:31:27.937" level="INFO">{'id': 17535, 'retcode': 0}
+before
+global var set: $suite_math_teacher_id:17535</msg>
+<status status="PASS" starttime="20181127 16:31:27.819" endtime="20181127 16:31:27.937"></status>
+</kw>
+<suite id="s1-s1-s1-s1-s1" name="D-学生桑桑1" source="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-数学老师桑桑\d-学生桑桑1">
+<kw name="Add Student" library="pylib.StudentLib" type="setup">
+<arguments>
+<arg>sangsang1</arg>
+<arg>桑桑1</arg>
+<arg>${g_grade_7_id}</arg>
+<arg>${suite_g7c1_classid}</arg>
+<arg>13900000001</arg>
+<arg>suite_student_id</arg>
+</arguments>
+<msg timestamp="20181127 16:31:28.045" level="INFO">${suite_student_id} = 7320</msg>
+<msg timestamp="20181127 16:31:28.045" level="INFO">{'id': 7320, 'retcode': 0}
+before
+global var set: $suite_student_id:7320</msg>
+<status status="PASS" starttime="20181127 16:31:27.943" endtime="20181127 16:31:28.045"></status>
+</kw>
+<suite id="s1-s1-s1-s1-s1-s1" name="Web操作" source="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-数学老师桑桑\d-学生桑桑1\web操作.robot">
+<kw name="Open Browser" library="pylib.WebOpLib" type="setup">
+<status status="PASS" starttime="20181127 16:31:28.156" endtime="20181127 16:31:32.988"></status>
+</kw>
+<test id="s1-s1-s1-s1-s1-s1-t1" name="老师发布作业1 - tc005101">
+<kw name="Teacher Login" library="pylib.WebOpLib">
+<arguments>
+<arg>sangsang</arg>
+<arg>888888</arg>
+</arguments>
+<status status="PASS" starttime="20181127 16:31:32.989" endtime="20181127 16:31:37.771"></status>
+</kw>
+<kw name="Teacher Create Task" library="pylib.WebOpLib">
+<arguments>
+<arg>test005</arg>
+</arguments>
+<msg timestamp="20181127 16:31:56.078" level="INFO">进入到下发任务窗口</msg>
+<status status="PASS" starttime="20181127 16:31:37.772" endtime="20181127 16:31:56.078"></status>
+</kw>
+<kw name="Student Login" library="pylib.WebOpLib">
+<arguments>
+<arg>sangsang1</arg>
+<arg>888888</arg>
+</arguments>
+<status status="PASS" starttime="20181127 16:31:56.079" endtime="20181127 16:31:58.746"></status>
+</kw>
+<kw name="Student Do Exam" library="pylib.WebOpLib">
+<status status="PASS" starttime="20181127 16:31:58.746" endtime="20181127 16:32:06.492"></status>
+</kw>
+<kw name="Teacher Login" library="pylib.WebOpLib">
+<arguments>
+<arg>sangsang</arg>
+<arg>888888</arg>
+</arguments>
+<status status="PASS" starttime="20181127 16:32:06.493" endtime="20181127 16:32:07.339"></status>
+</kw>
+<kw name="Teacher Check Exam" library="pylib.WebOpLib">
+<assign>
+<var>${choices}</var>
+</assign>
+<msg timestamp="20181127 16:32:11.837" level="INFO">进入到查看作业窗口
+['B', 'B', 'B']</msg>
+<msg timestamp="20181127 16:32:11.837" level="INFO">${choices} = ['B', 'B', 'B']</msg>
+<status status="PASS" starttime="20181127 16:32:07.340" endtime="20181127 16:32:11.837"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>$choices==['B','B','B']</arg>
+</arguments>
+<status status="PASS" starttime="20181127 16:32:11.838" endtime="20181127 16:32:11.847"></status>
+</kw>
+<status status="PASS" starttime="20181127 16:31:32.988" endtime="20181127 16:32:11.847" critical="yes"></status>
+</test>
+<kw name="Close Browser" library="pylib.WebOpLib" type="teardown">
+<status status="PASS" starttime="20181127 16:32:11.849" endtime="20181127 16:32:14.986"></status>
+</kw>
+<status status="PASS" starttime="20181127 16:31:28.046" endtime="20181127 16:32:14.986"></status>
+</suite>
+<kw name="Delete Student" library="pylib.StudentLib" type="teardown">
+<arguments>
+<arg>${suite_student_id}</arg>
+</arguments>
+<msg timestamp="20181127 16:32:15.091" level="INFO">{'retcode': 0}</msg>
+<status status="PASS" starttime="20181127 16:32:14.990" endtime="20181127 16:32:15.091"></status>
+</kw>
+<status status="PASS" starttime="20181127 16:31:27.937" endtime="20181127 16:32:15.091"></status>
+</suite>
+<kw name="Delete Teacher" library="pylib.TeacherLib" type="teardown">
+<arguments>
+<arg>${suite_math_teacher_id}</arg>
+</arguments>
+<msg timestamp="20181127 16:32:15.200" level="INFO">{'retcode': 0}</msg>
+<status status="PASS" starttime="20181127 16:32:15.095" endtime="20181127 16:32:15.200"></status>
+</kw>
+<status status="PASS" starttime="20181127 16:31:27.814" endtime="20181127 16:32:15.200"></status>
+</suite>
+<kw name="Delete School Class" library="pylib.SchoolClassLib" type="teardown">
+<arguments>
+<arg>${suite_g7c1_classid}</arg>
+</arguments>
+<msg timestamp="20181127 16:32:15.264" level="INFO">{'retcode': 0}</msg>
+<status status="PASS" starttime="20181127 16:32:15.204" endtime="20181127 16:32:15.264"></status>
+</kw>
+<status status="PASS" starttime="20181127 16:31:27.713" endtime="20181127 16:32:15.264"></status>
+</suite>
+<status status="PASS" starttime="20181127 16:31:27.013" endtime="20181127 16:32:15.267"></status>
+</suite>
+<status status="PASS" starttime="20181127 16:31:26.985" endtime="20181127 16:32:15.270"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Tc">Tc</stat>
+<stat pass="1" fail="0" id="s1-s1" name="D-空白数据">Tc.D-空白数据</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="D-7年级1班">Tc.D-空白数据.D-7年级1班</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1" name="D-数学老师桑桑">Tc.D-空白数据.D-7年级1班.D-数学老师桑桑</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1" name="D-学生桑桑1">Tc.D-空白数据.D-7年级1班.D-数学老师桑桑.D-学生桑桑1</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s1-s1-s1" name="Web操作">Tc.D-空白数据.D-7年级1班.D-数学老师桑桑.D-学生桑桑1.Web操作</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

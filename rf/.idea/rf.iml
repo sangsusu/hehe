@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="appium-selenium" />
+    <orderEntry type="module" module-name="samples_selenium" />
+    <orderEntry type="module" module-name="Python" />
+    <orderEntry type="module" module-name="练习" />
+    <orderEntry type="module" module-name="Python" />
+    <orderEntry type="module" module-name="API" />
+    <orderEntry type="module" module-name="task" />
+    <orderEntry type="module" module-name="xmmz" />
+    <orderEntry type="module" module-name="pyWorkSpace" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

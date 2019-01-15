@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20181110 10:07:03.335">
+<suite id="s1" name="Xmmz Tc" source="D:\pyWorkSpace\xmmz\xmmz_tc">
+<suite id="s1-s1" name="D-未登录" source="D:\pyWorkSpace\xmmz\xmmz_tc\d-未登录">
+<suite id="s1-s1-s1" name="D-已登录但未绑定微信" source="D:\pyWorkSpace\xmmz\xmmz_tc\d-未登录\d-已登录但未绑定微信">
+<kw name="Login" library="pylib.keywordlib" type="setup">
+<arguments>
+<arg>13900000000</arg>
+</arguments>
+<msg timestamp="20181110 10:08:44.790" level="INFO">用户 久 登陆成功</msg>
+<status status="PASS" starttime="20181110 10:07:23.971" endtime="20181110 10:08:44.790"></status>
+</kw>
+<suite id="s1-s1-s1-s1" name="Cart" source="D:\pyWorkSpace\xmmz\xmmz_tc\d-未登录\d-已登录但未绑定微信\Cart.robot">
+<test id="s1-s1-s1-s1-t1" name="购物车添加商品 - tc20001">
+<kw name="Search" library="pylib.keywordlib">
+<msg timestamp="20181110 10:09:15.795" level="INFO">成功搜索关键字兰蔻</msg>
+<status status="PASS" starttime="20181110 10:08:44.799" endtime="20181110 10:09:15.795"></status>
+</kw>
+<kw name="Add Goods To Cart" library="pylib.keywordlib">
+<msg timestamp="20181110 10:09:26.019" level="INFO">兰蔻 臻白晶透精华水
+兰蔻 臻白晶透精华水
+商品已正确添加至购物车</msg>
+<status status="PASS" starttime="20181110 10:09:15.795" endtime="20181110 10:09:26.019"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:08:44.796" endtime="20181110 10:09:26.020" critical="yes"></status>
+</test>
+<test id="s1-s1-s1-s1-t2" name="购物车增加商品数量 - tc20002">
+<kw name="Increase The Quantity" library="pylib.keywordlib">
+<msg timestamp="20181110 10:09:38.904" level="INFO">5
+7
+商品数量正确添加</msg>
+<status status="PASS" starttime="20181110 10:09:26.023" endtime="20181110 10:09:38.904"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:09:26.021" endtime="20181110 10:09:38.905" critical="yes"></status>
+</test>
+<test id="s1-s1-s1-s1-t3" name="购物车减少商品数量 - tc20003">
+<kw name="Reduce Quantity" library="pylib.keywordlib">
+<msg timestamp="20181110 10:09:50.140" level="INFO">7
+5
+商品数量正确减少</msg>
+<status status="PASS" starttime="20181110 10:09:38.907" endtime="20181110 10:09:50.140"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:09:38.906" endtime="20181110 10:09:50.140" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20181110 10:08:44.790" endtime="20181110 10:09:50.143"></status>
+</suite>
+<suite id="s1-s1-s1-s2" name="Quanquan" source="D:\pyWorkSpace\xmmz\xmmz_tc\d-未登录\d-已登录但未绑定微信\quanquan.robot">
+<test id="s1-s1-s1-s2-t1" name="圈圈聊天 - tc30001">
+<kw name="Chat Characters" library="pylib.keywordlib">
+<arguments>
+<arg>一去二三里，烟村四五家，平台六七座，八九十之花，哈哈哈哈哈</arg>
+</arguments>
+<msg timestamp="20181110 10:10:03.201" level="INFO">成功发送 一去二三里，烟村四五家，平台六七座，八九十之花，哈哈哈哈哈 到群聊</msg>
+<status status="PASS" starttime="20181110 10:09:50.158" endtime="20181110 10:10:03.202"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:09:50.156" endtime="20181110 10:10:03.202" critical="yes"></status>
+</test>
+<test id="s1-s1-s1-s2-t2" name="圈圈聊天 - tc30002">
+<kw name="Chat Picture" library="pylib.keywordlib">
+<status status="PASS" starttime="20181110 10:10:03.205" endtime="20181110 10:10:17.822"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:10:03.204" endtime="20181110 10:10:17.823" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20181110 10:09:50.147" endtime="20181110 10:10:17.825"></status>
+</suite>
+<suite id="s1-s1-s1-s3" name="Search and Buy" source="D:\pyWorkSpace\xmmz\xmmz_tc\d-未登录\d-已登录但未绑定微信\Search_and_Buy.robot">
+<test id="s1-s1-s1-s3-t1" name="购买 - tc0001">
+<kw name="Search" library="pylib.keywordlib">
+<msg timestamp="20181110 10:10:28.287" level="INFO">成功搜索关键字兰蔻</msg>
+<status status="PASS" starttime="20181110 10:10:17.836" endtime="20181110 10:10:28.287"></status>
+</kw>
+<kw name="Buy" library="pylib.keywordlib">
+<msg timestamp="20181110 10:10:42.269" level="INFO">成功跳转待付款页面</msg>
+<status status="PASS" starttime="20181110 10:10:28.287" endtime="20181110 10:10:42.269"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:10:17.835" endtime="20181110 10:10:42.269" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20181110 10:10:17.829" endtime="20181110 10:10:42.271"></status>
+</suite>
+<kw name="Exit" library="pylib.keywordlib" type="teardown">
+<status status="PASS" starttime="20181110 10:10:42.276" endtime="20181110 10:11:07.498"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:07:03.379" endtime="20181110 10:11:07.498"></status>
+</suite>
+<suite id="s1-s1-s2" name="Jump login" source="D:\pyWorkSpace\xmmz\xmmz_tc\d-未登录\Jump_login.robot">
+<test id="s1-s1-s2-t1" name="未登录圈圈 - tc10001">
+<kw name="Not Login Quanquan" library="pylib.keywordlib">
+<msg timestamp="20181110 10:11:10.722" level="INFO">成功跳转登录页面</msg>
+<status status="PASS" starttime="20181110 10:11:07.509" endtime="20181110 10:11:10.722"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:11:07.507" endtime="20181110 10:11:10.722" critical="yes"></status>
+</test>
+<test id="s1-s1-s2-t2" name="未登录福利社 - tc10002">
+<kw name="Not Login Welfare Service" library="pylib.keywordlib">
+<msg timestamp="20181110 10:11:13.820" level="INFO">成功跳转登录页面</msg>
+<status status="PASS" starttime="20181110 10:11:10.725" endtime="20181110 10:11:13.820"></status>
+</kw>
+<status status="PASS" starttime="20181110 10:11:10.724" endtime="20181110 10:11:13.821" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20181110 10:11:07.502" endtime="20181110 10:11:13.822"></status>
+</suite>
+<status status="PASS" starttime="20181110 10:07:03.375" endtime="20181110 10:11:13.826"></status>
+</suite>
+<status status="PASS" starttime="20181110 10:07:03.342" endtime="20181110 10:11:13.832"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="8" fail="0">Critical Tests</stat>
+<stat pass="8" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="8" fail="0" id="s1" name="Xmmz Tc">Xmmz Tc</stat>
+<stat pass="8" fail="0" id="s1-s1" name="D-未登录">Xmmz Tc.D-未登录</stat>
+<stat pass="6" fail="0" id="s1-s1-s1" name="D-已登录但未绑定微信">Xmmz Tc.D-未登录.D-已登录但未绑定微信</stat>
+<stat pass="3" fail="0" id="s1-s1-s1-s1" name="Cart">Xmmz Tc.D-未登录.D-已登录但未绑定微信.Cart</stat>
+<stat pass="2" fail="0" id="s1-s1-s1-s2" name="Quanquan">Xmmz Tc.D-未登录.D-已登录但未绑定微信.Quanquan</stat>
+<stat pass="1" fail="0" id="s1-s1-s1-s3" name="Search and Buy">Xmmz Tc.D-未登录.D-已登录但未绑定微信.Search and Buy</stat>
+<stat pass="2" fail="0" id="s1-s1-s2" name="Jump login">Xmmz Tc.D-未登录.Jump login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

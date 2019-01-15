@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20181127 16:03:01.771">
+<suite id="s1" name="Web操作" source="D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-数学老师桑桑\d-学生桑桑1\web操作.robot">
+<kw name="open browser" type="setup">
+<msg timestamp="20181127 16:03:01.816" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20181127 16:03:01.815" endtime="20181127 16:03:01.816"></status>
+</kw>
+<test id="s1-t1" name="老师发布作业1 - tc005101">
+<status status="FAIL" starttime="20181127 16:03:01.816" endtime="20181127 16:03:01.817" critical="yes">Parent suite setup failed:
+No keyword with name 'open browser' found.</status>
+</test>
+<kw name="close browser" type="teardown">
+<msg timestamp="20181127 16:03:01.819" level="FAIL">No keyword with name 'close browser' found.</msg>
+<status status="FAIL" starttime="20181127 16:03:01.819" endtime="20181127 16:03:01.819">No keyword with name 'close browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20181127 16:03:01.778" endtime="20181127 16:03:01.819">Suite setup failed:
+No keyword with name 'open browser' found.
+
+Also suite teardown failed:
+No keyword with name 'close browser' found.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Web操作">Web操作</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181127 16:03:01.812" level="ERROR">Error in file 'D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-数学老师桑桑\d-学生桑桑1\web操作.robot': Importing test library 'pylib.WebOpLib' failed: Module 'pylib' does not contain 'WebOpLib'.</msg>
+<msg timestamp="20181127 16:03:01.813" level="ERROR">Error in file 'D:\pyWorkSpace\task\tc\d-空白数据\d-7年级1班\d-数学老师桑桑\d-学生桑桑1\web操作.robot': Variable file 'cfg.py' does not exist.</msg>
+</errors>
+</robot>

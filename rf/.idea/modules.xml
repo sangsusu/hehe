@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../API/.idea/API.iml" filepath="$PROJECT_DIR$/../API/.idea/API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python/.idea/Python.iml" filepath="$PROJECT_DIR$/../Python/.idea/Python.iml" />
+      <module fileurl="file://D:/桌面/name/Python/.idea/Python.iml" filepath="D:/桌面/name/Python/.idea/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appium-selenium/.idea/appium-selenium.iml" filepath="$PROJECT_DIR$/../appium-selenium/.idea/appium-selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/pyWorkSpace.iml" filepath="$PROJECT_DIR$/../.idea/pyWorkSpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rf.iml" filepath="$PROJECT_DIR$/.idea/rf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../samples_selenium/.idea/samples_selenium.iml" filepath="$PROJECT_DIR$/../samples_selenium/.idea/samples_selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../task/.idea/task.iml" filepath="$PROJECT_DIR$/../task/.idea/task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xmmz/.idea/xmmz.iml" filepath="$PROJECT_DIR$/../xmmz/.idea/xmmz.iml" />
+      <module fileurl="file://D:/桌面/name/练习/.idea/练习.iml" filepath="D:/桌面/name/练习/.idea/练习.iml" />
+    </modules>
+  </component>
+</project>

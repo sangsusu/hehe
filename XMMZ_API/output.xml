@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.5 on win32)" generated="20190118 18:08:03.464">
+<suite id="s1" name="Xmmz" source="D:\hehe\XMMZ_API\xmmz">
+<suite id="s1-s1" name="Cart" source="D:\hehe\XMMZ_API\xmmz\cart.robot">
+<test id="s1-s1-t1" name="add-00001">
+<kw name="Login" library="pylibnew.cartlib">
+<arguments>
+<arg>13900000000</arg>
+<arg>1111</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20190118 18:08:04.165" level="INFO">{ 'code': 200,
+  'datas': { 'HPHPSESSID': 'q0no9oplertkg8p60gu2ubc965',
+             'hasauthor': True,
+             'hasmobile': True,
+             'isauthor': True,
+             'ismember': True,
+             'member_id': 41220,
+             'userinfo': { 'member_avatar': 'http://thirdwx.qlogo.cn/mmopen/vi_32/9q7IibNxaSt0KRNMicj82cCmm02dwCBOXFXeiaXnz6VZwPA8ic7SeCNO9jltdDqiaHmFibefS4EyMiaHVD6glnwX1jDKQ/132',
+                           'member_mobile': '13900000000',
+                           'member_nickname': '如木西沉',
+                           'member_sex': 0,
+                           'qrcode': 'https://a.lrlz.com/data/upload/shop/qrcode/f433aadec676a4ee597c5aa2d83496ab.png?tm=1547806084'}},
+  'message': '成功'}</msg>
+<msg timestamp="20190118 18:08:04.165" level="INFO">d:\mydownloads\lib\site-packages\urllib3\connectionpool.py:857: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)</msg>
+<msg timestamp="20190118 18:08:04.165" level="INFO">${ret} = {'code': 200, 'message': '成功', 'datas': {'ismember': True, 'isauthor': True, 'hasmobile': True, 'hasauthor': True, 'member_id': 41220, 'HPHPSESSID': 'q0no9oplertkg8p60gu2ubc965', 'userinfo': {'member_...</msg>
+<status status="PASS" starttime="20190118 18:08:03.626" endtime="20190118 18:08:04.166"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>$ret['code']==200</arg>
+</arguments>
+<status status="PASS" starttime="20190118 18:08:04.166" endtime="20190118 18:08:04.173"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${ret}['datas']['HPHPSESSID']=='07f2d21vkctl1kn5sqhgf8fis2'</arg>
+</arguments>
+<msg timestamp="20190118 18:08:04.174" level="FAIL">'{'code': 200, 'message': '成功', 'datas': {'ismember': True, 'isauthor': True, 'hasmobile': True, 'hasauthor': True, 'member_id': 41220, 'HPHPSESSID': 'q0no9oplertkg8p60gu2ubc965', 'userinfo': {'member_avatar': 'http://thirdwx.qlogo.cn/mmopen/vi_32/9q7IibNxaSt0KRNMicj82cCmm02dwCBOXFXeiaXnz6VZwPA8ic7SeCNO9jltdDqiaHmFibefS4EyMiaHVD6glnwX1jDKQ/132', 'member_mobile': '13900000000', 'member_nickname': '如木西沉', 'member_sex': 0, 'qrcode': 'https://a.lrlz.com/data/upload/shop/qrcode/f433aadec676a4ee597c5aa2d83496ab.png?tm=1547806084'}}}['datas']['HPHPSESSID']=='07f2d21vkctl1kn5sqhgf8fis2'' should be true.</msg>
+<status status="FAIL" starttime="20190118 18:08:04.174" endtime="20190118 18:08:04.174"></status>
+</kw>
+<status status="FAIL" starttime="20190118 18:08:03.625" endtime="20190118 18:08:04.175" critical="yes">'{'code': 200, 'message': '成功', 'datas': {'ismember': True, 'isauthor': True, 'hasmobile': True, 'hasauthor': True, 'member_id': 41220, 'HPHPSESSID': 'q0no9oplertkg8p60gu2ubc965', 'userinfo': {'member_avatar': 'http://thirdwx.qlogo.cn/mmopen/vi_32/9q7IibNxaSt0KRNMicj82cCmm02dwCBOXFXeiaXnz6VZwPA8ic7SeCNO9jltdDqiaHmFibefS4EyMiaHVD6glnwX1jDKQ/132', 'member_mobile': '13900000000', 'member_nickname': '如木西沉', 'member_sex': 0, 'qrcode': 'https://a.lrlz.com/data/upload/shop/qrcode/f433aadec676a4ee597c5aa2d83496ab.png?tm=1547806084'}}}['datas']['HPHPSESSID']=='07f2d21vkctl1kn5sqhgf8fis2'' should be true.</status>
+</test>
+<status status="FAIL" starttime="20190118 18:08:03.497" endtime="20190118 18:08:04.177"></status>
+</suite>
+<status status="FAIL" starttime="20190118 18:08:03.470" endtime="20190118 18:08:04.179"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Xmmz">Xmmz</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Cart">Xmmz.Cart</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
